@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100vh;
+   
+}
+
+.scene{
+    width: auto;
+    height: 400px;
+    background: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4820737.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    justify-content: center;
+
+}
+
+.btns {
+   
+    width: 700px;
+    height: 80px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.btns button {
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 450;
+    text-transform: capitalize;
+    background: transparent;
+    border: 1px solid rgb(46, 78, 221) ;
+    text-shadow: 1px 1px 1px rgb(46, 78, 221) ;
+}
+.btns button:hover {
+    background: rgb(46, 78, 221);
+    color: white;
+    font-weight: 600;
+}
+
+.road{
+    width: auto;
+    height: 250px;
+    background: url(https://www.roadsbridges.com/sites/rb/files/styles/content_type_page/public/Traffic_Safety_44.jpg?itok=1l9M5JPm);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.road .fa-biking {
+  font-size: 120px;
+    color: rgb(46, 78, 221);
+    background: transparent;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
